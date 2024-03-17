@@ -2,7 +2,7 @@
 2) GRPC for messages
 3) Serverless architecture
 4) Rust for the backend
-5) Decentralized Database
+5) Decentralized Edge Database
 6) For the frontend NextJS (if SSR/RSC/SSG are required) otherwise react/solidjs
 7) History of the message will be kept only if we have time to implement it
 
@@ -10,3 +10,12 @@
 
 Note:
 - https://akash.network/
+
+# Architecture
+## Messaging
+Consists of a stand-alone processing service. Handles connections, messages redirection, service signaling (*pinning*, *off-load*)
+## Persistance
+Covers local (client-side, secured by passphrase) and remote (decentralized) storage. Represented by background service that egresses the data to target layer.
+## Privacy preserving (?)
+- Waku relayer
+- [PSE](https://pse.dev) frameworks
