@@ -10,3 +10,7 @@
 
 Note:
 - https://akash.network/
+
+# Other sutff
+- Decentralized data-layer: Ceramic
+Edge computing
