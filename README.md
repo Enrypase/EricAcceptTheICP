@@ -11,6 +11,7 @@
 Note:
 - https://akash.network/
 
+
 # Architecture
 ## Messaging
 Consists of a stand-alone processing service. Handles connections, messages redirection, service signaling (*pinning*, *off-load*)
@@ -19,3 +20,7 @@ Covers local (client-side, secured by passphrase) and remote (decentralized) sto
 ## Privacy preserving (?)
 - Waku relayer
 - [PSE](https://pse.dev) frameworks
+
+# Other sutff
+- Decentralized data-layer: Ceramic
+Edge computing
